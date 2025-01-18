@@ -1,5 +1,6 @@
 import Script from 'next/script'
 
+import { videos } from '@/lib/site'
 import BandsInTown from '@/components/bands-in-town'
 import Hero from '@/components/hero'
 import PageTitle from '@/components/page-title'
@@ -19,9 +20,10 @@ export default function Home() {
 
       <section className="flex w-full flex-col py-8">
         <PageTitle className="text-center">Videos</PageTitle>
-        <Video id="mjzFuNeAwNQ" />
-        <Video id="nQy90xn-zvE" />
-        <Video id="ZPl3qgZuCv8" />
+
+        {Object.entries(videos).map(([key, url]) => (
+          <Video key={key} id={url} />
+        ))}
       </section>
     </main>
   )

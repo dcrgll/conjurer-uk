@@ -10,7 +10,7 @@ export const ERROR_STATE = 'error'
 
 export default function Newsletter() {
   return (
-    <section className="mx-auto w-full py-8">
+    <section className="mx-auto w-full pb-8">
       <div className="mx-auto max-w-6xl flex-col items-center justify-center px-8 py-12 sm:px-6 lg:flex lg:px-8 lg:py-16">
         <div className="w-full lg:max-w-md lg:flex-1">
           <h2

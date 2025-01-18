@@ -5,6 +5,7 @@ export default function sitemap() {
     '/releases',
     '/store',
     '/contact',
+    '/videos',
     '/releases/pathos',
     '/releases/i',
     '/releases/mire',

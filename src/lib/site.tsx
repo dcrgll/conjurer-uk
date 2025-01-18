@@ -36,3 +36,5 @@ export const socials = {
     href: 'https://tidal.com/browse/artist/7185952'
   }
 }
+
+export const videos = ['mjzFuNeAwNQ', 'nQy90xn-zvE', 'ZPl3qgZuCv8']
