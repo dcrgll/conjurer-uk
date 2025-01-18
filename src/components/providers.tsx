@@ -21,8 +21,8 @@ export default function Providers({ children }: { children: React.ReactNode }) {
           buttonText="Acknowledge"
           onAccept={grantConsentForEverything}
           location="bottom"
-          containerClasses="shadow md:max-w-sm right-0 fixed bg-brand border border-black rounded p-4 m-4"
-          buttonClasses="px-8 py-1.5 *:text-lg rounded px-4 py-1.5 text-sm font-semibold transition bg-black text-white w-full text-center hover:bg-black/50 transition-colors ease-in-out duration-100 mt-2"
+          containerClasses="shadow md:max-w-sm right-0 fixed bg-background border border-white rounded p-4 m-4"
+          buttonClasses="px-8 py-1.5 *:text-lg rounded px-4 py-1.5 text-sm font-semibold transition bg-white text-black w-full text-center hover:bg-white/50 transition-colors ease-in-out duration-100 mt-2"
         >
           <p className="w-full pb-2 text-center text-xs md:max-w-xs">
             By using this site, you agree to the use of cookies for a better
