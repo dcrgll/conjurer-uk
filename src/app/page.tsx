@@ -13,7 +13,7 @@ export default function Home() {
 
       <Hero />
       <section className="flex w-full flex-col py-8">
-        <PageTitle className="text-center">Live Shows</PageTitle>
+        <PageTitle className="mb-16 text-center">Live Shows</PageTitle>
 
         <BandsInTown />
       </section>
@@ -22,7 +22,7 @@ export default function Home() {
         <PageTitle className="text-center">Videos</PageTitle>
 
         {Object.entries(videos).map(([key, url]) => (
-          <Video key={key} id={url} />
+          <Video key={key} id={url.code} />
         ))}
       </section>
     </main>

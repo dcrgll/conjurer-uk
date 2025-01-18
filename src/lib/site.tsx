@@ -37,4 +37,8 @@ export const socials = {
   }
 }
 
-export const videos = ['mjzFuNeAwNQ', 'nQy90xn-zvE', 'ZPl3qgZuCv8']
+export const videos = [
+  { label: 'It Dwells', code: 'mjzFuNeAwNQ' },
+  { label: 'Rot', code: 'nQy90xn-zvE' },
+  { label: 'Cracks In The Pyre', code: 'ZPl3qgZuCv8' }
+]

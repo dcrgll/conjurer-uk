@@ -14,7 +14,7 @@ export default function LivePage() {
       </div>
 
       {Object.entries(videos).map(([key, url]) => (
-        <Video key={key} id={url} />
+        <Video key={key} id={url.code} />
       ))}
     </main>
   )
