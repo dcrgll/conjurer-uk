@@ -20,8 +20,11 @@ export default function Newsletter() {
             Sign up for our newsletter
           </h2>
         </div>
-        <div className="mt-8 sm:flex-col sm:justify-center lg:ml-8 lg:mt-8">
-          <form className="sm:flex sm:justify-center" onSubmit={() => {}}>
+        <div className="mt-8 w-full max-w-md sm:flex-col sm:justify-center lg:ml-8 lg:mt-8">
+          <form
+            className="flex w-full flex-col justify-center"
+            onSubmit={() => {}}
+          >
             <Label htmlFor="email-address" className="sr-only">
               Email address
             </Label>
@@ -34,9 +37,9 @@ export default function Newsletter() {
               placeholder="Enter your email"
               onChange={() => {}}
             />
-            <div className="relative mt-3 rounded-md shadow sm:ml-3 sm:mt-0 sm:flex-shrink-0">
-              <Button type="submit">Notify me</Button>
-            </div>
+            <Button type="submit" className="mt-2 w-full">
+              Notify me
+            </Button>
           </form>
         </div>
       </div>
