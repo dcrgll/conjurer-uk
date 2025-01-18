@@ -60,25 +60,25 @@ export default function Hero() {
 const socials = [
   {
     href: 'https://conjureruk.bandcamp.com/merch',
-    Icon: () => <>🇬🇧</>,
+    Icon: () => <span className="-ml-4 text-lg">🇬🇧</span>,
     text: 'UK STORE',
     color: 'bg-gray-800'
   },
   {
     href: 'https://evilgreed.net/collections/conjurer',
-    Icon: () => <>🇪🇺</>,
+    Icon: () => <span className="-ml-4 text-lg">🇪🇺</span>,
     text: 'EU STORE',
     color: 'bg-gray-800'
   },
   {
     href: 'https://www.nightshiftmerch.com/collections/conjurer',
-    Icon: () => <>🇺🇸</>,
+    Icon: () => <span className="-ml-4 text-lg">🇺🇸</span>,
     text: 'USA STORE',
     color: 'bg-gray-800'
   },
   {
     href: 'https://imprintmerch.com.au/collections/conjurer',
-    Icon: () => <>🇦🇺</>,
+    Icon: () => <span className="-ml-4 text-lg">🇦🇺</span>,
     text: 'Australia Store',
     color: 'bg-gray-800'
   },

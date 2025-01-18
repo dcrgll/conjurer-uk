@@ -29,7 +29,7 @@ export const socials = {
   },
   twitter: {
     icon: <Twitter className="mx-auto h-8 w-8" />,
-    href: 'https://twitter.com/conjureruk'
+    href: 'https://x.com/conjureruk'
   },
   tidal: {
     icon: <Tidal className="mx-auto h-8 w-8" />,
