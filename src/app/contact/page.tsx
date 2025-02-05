@@ -6,12 +6,9 @@ import PageTitle from '@/components/page-title'
 const contacts = [
   {
     href: 'james@atonal.agency',
-    label: 'UK / EU Bookings:'
+    label: 'Bookings:'
   },
-  {
-    label: 'USA Bookings:',
-    href: 'dan@continentaltouring.us'
-  },
+
   {
     label: 'PR',
     href: 'matt@holdtightpr.com'
